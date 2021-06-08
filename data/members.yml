@@ -1,0 +1,71 @@
+members: 
+  - cboettig:
+    name:
+      first: "Carl" 
+      last: "Boettiger"
+    title: "Assistant Professor"
+    homepage: "http://www.carlboettiger.info"
+    github: "cboettig"
+    twitter: "cboettig"
+    orcid: "0000-0002-1642-628X"
+    googlescholar: "https://scholar.google.com/citations?hl=en&user=zj2rRtEAAAAJ"
+    email: "cboettig@berkeley.edu"
+    photo: "carl.png"
+    keybase: "https://keybase.io/cboettig"
+  - kari:
+    name:
+      first: "Kari" 
+      last: "Norman"
+    title: "Graduate Student"
+    homepage: "#"
+    github: "karinorman"
+    orcid: "0000-0002-2029-2325"
+    email: "kari.norman.314@gmail.com"
+    photo: "kari.png"
+    twitter: "norman_kari"
+  - millie:
+    name:
+      first: "Millie" 
+      last: "Chapman"
+    title: "Graduate Student"
+    homepage: "#"
+    github: "milliechapman"
+    twitter: "milliechapma"
+    orcid: "0000-0002-1377-1539"
+    email: "mchapman@berkeley.edu"
+    photo: "millie.png"    
+  - marcus:
+    name:
+      first: "Marcus" 
+      last: "Lapeyrolerie"
+    title: "Graduate Student"
+    homepage: "#"
+    github: "mlap"
+    orcid: "0000-0003-2588-7843"
+    email: "marcuslapeyrolerie@me.com"
+    photo: "marcus.jpg"    
+  - serge:
+    name:
+      first: "Serge" 
+      last: "Wiltshire"
+    title: "Postdoctoral Researcher"
+    googlescholar: "https://scholar.google.com/citations?user=-8I8G-kAAAAJ&hl=en"
+    #homepage: "#"
+    #github: ""
+    #orcid: ""
+    email: "serge.wiltshire@gmail.com"
+    photo: "serge.jpg"    
+  - you:
+    name:
+      first: "Your"
+      last: "Name Here?"
+    title: "Open Position"
+    website: "#"
+    github: "#"
+    twitter: "#"
+    orcid: "#" 
+    email: "you@example.com"
+    cv: "http://example.com/cv.html" 
+    photo: "you.png"
+
+
