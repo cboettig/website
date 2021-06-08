@@ -21,14 +21,14 @@
     {{ end }}
 
     <div class="tc">
-      <a class="btn btn-link btn-just-icon" href="mailto:{{.email}}" title="email"><i class="fa fa-envelope"></i></a>
-      {{ with .twitter }}<a class="btn btn-link btn-just-icon" rel="foaf:account" href="https://twitter.com/{{.}}" title="Twitter: {{.}}"><i class="fa fa-twitter"></i></a>{{ end }}
-      {{ with .linkedin }}<a  class="btn btn-link btn-just-icon" rel="foaf:account" href="{{.}}" title="LinkedIn"><i class="fa fa-linkedin"></i></a>{{ end }}
-      {{ with .researchgate }}<a class="btn btn-link btn-just-icon" rel="foaf:account" href="{{.}}" title="ResearchGate"><i class="ai ai-researchgate"></i></a>{{ end }}
-      {{ with .github }}<a class="btn btn-link btn-just-icon" rel="foaf:account" href="https://github.com/{{.}}" title="GitHub: {{.}}"><i class="fa fa-github"></i></a>{{ end }}
-      {{ with .orcid }}<a class="btn btn-link btn-just-icon" rel="http://purl.org/spar/datacite/orcid" href="https://orcid.org/{{.}}" title="ORCID ID"><i class="ai ai-orcid"></i></a>{{ end }}
-      {{ with .cv }}<a class="btn btn-link btn-just-icon" rel="foaf:publications" href="{{.}}" title="Publications"><i class="fa fa-file-text"></i></a>{{ end }}
-      {{ with .googlescholar }}<a class="btn btn-link btn-just-icon" rel="foaf:publications" href="{{.}}" title="Publications"><i class="ai ai-google-scholar"></i></a>{{ end }}
+      <a class= href="mailto:{{.email}}" title="email"><i class="fa fa-envelope"></i></a>
+      {{ with .twitter }}<a  rel="foaf:account" href="https://twitter.com/{{.}}" title="Twitter: {{.}}"><i class="fab fa-twitter"></i></a>{{ end }}
+      {{ with .linkedin }}<a   rel="foaf:account" href="{{.}}" title="LinkedIn"><i class="fab fa-linkedin"></i></a>{{ end }}
+      {{ with .researchgate }}<a rel="foaf:account" href="{{.}}" title="ResearchGate"><i class="ai ai-researchgate"></i></a>{{ end }}
+      {{ with .github }}<a rel="foaf:account" href="https://github.com/{{.}}" title="GitHub: {{.}}"><i class="fab fa-github"></i></a>{{ end }}
+      {{ with .orcid }}<a  rel="http://purl.org/spar/datacite/orcid" href="https://orcid.org/{{.}}" title="ORCID ID"><i class="ai ai-orcid"></i></a>{{ end }}
+      {{ with .cv }}<a rel="foaf:publications" href="{{.}}" title="Publications"><i class="fa fa-file-text"></i></a>{{ end }}
+      {{ with .googlescholar }}<a  rel="foaf:publications" href="{{.}}" title="Publications"><i class="ai ai-google-scholar"></i></a>{{ end }}
     </div>
   </div>
   
