@@ -32,7 +32,7 @@ enableEmoji = true
   orgLocal = "University of California, Berkeley"
   description = "Theoretical Ecology and Data Science"
   favicon = "/img/favicon.ico"
-  logo = "/img/blogophonic-mark-dark.png"
+  logo = "/img/logo.png"
   mainSections = ["blog", "project", "talk"]
   navallcaps = true
   # show/hide social icons in site header & footer
@@ -107,13 +107,13 @@ enableEmoji = true
   # Configure header 
   [[menu.header]]
     name = "About"
-    title = "About Blogophonic"
+    title = "About"
     url = "/about/"
     weight = 1
   [[menu.header]]
-    name = "pubs"
+    name = "publications"
     title = "Publications"
-    url = "/pubs/"
+    url = "/publications/"
     weight = 2
   [[menu.header]]
     name = "members"
@@ -128,11 +128,7 @@ enableEmoji = true
     title = "License"
     url = "/license/"
     weight = 1
-  [[menu.footer]]
-    name = "Contact"
-    title = "Contact form"
-    url = "/contact/"
-    weight = 2
+
 
 
 # see https://gohugo.io/about/hugo-and-gdpr/    

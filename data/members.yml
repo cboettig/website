@@ -66,6 +66,6 @@ members:
     orcid: "#" 
     email: "you@example.com"
     cv: "http://example.com/cv.html" 
-    photo: "you.png"
+    photo: "logo.jpg"
 
 

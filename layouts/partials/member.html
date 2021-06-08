@@ -1,0 +1,35 @@
+
+<div class="w-third pa2 tc">
+  
+  <div  prefix="schema: http://schema.org/ foaf: http://xmlns.com/foaf/0.1"  typeof="foaf:Person schema:Person" about="{{.homepage}}">
+    <div class="pa4 tc">
+      <img property="foaf:depiction" src="{{ "/img/" | relURL }}{{.photo}}" alt="Photo of {{.name.first}}" class="br-100 w5 dib"/>
+    </div>
+    <h4>
+    <a property="foaf:homepage schema:url"
+       href="{{.homepage}}"><span
+       property="foaf:name"><span
+       property="foaf:givenName">{{.name.first}}</span> <span
+       property="foaf:familyName">{{.name.last}}</span></span></a>
+    <br/>
+    <small class="card-description text-muted" property="schema:jobTitle">{{.title}}</small>
+    </h4>
+    {{ with .description }}
+    <div class="card-body">
+      <p class="card-description">{{.}}</p>
+    </div>
+    {{ end }}
+
+    <div class="tc">
+      <a class="btn btn-link btn-just-icon" href="mailto:{{.email}}" title="email"><i class="fa fa-envelope"></i></a>
+      {{ with .twitter }}<a class="btn btn-link btn-just-icon" rel="foaf:account" href="https://twitter.com/{{.}}" title="Twitter: {{.}}"><i class="fa fa-twitter"></i></a>{{ end }}
+      {{ with .linkedin }}<a  class="btn btn-link btn-just-icon" rel="foaf:account" href="{{.}}" title="LinkedIn"><i class="fa fa-linkedin"></i></a>{{ end }}
+      {{ with .researchgate }}<a class="btn btn-link btn-just-icon" rel="foaf:account" href="{{.}}" title="ResearchGate"><i class="ai ai-researchgate"></i></a>{{ end }}
+      {{ with .github }}<a class="btn btn-link btn-just-icon" rel="foaf:account" href="https://github.com/{{.}}" title="GitHub: {{.}}"><i class="fa fa-github"></i></a>{{ end }}
+      {{ with .orcid }}<a class="btn btn-link btn-just-icon" rel="http://purl.org/spar/datacite/orcid" href="https://orcid.org/{{.}}" title="ORCID ID"><i class="ai ai-orcid"></i></a>{{ end }}
+      {{ with .cv }}<a class="btn btn-link btn-just-icon" rel="foaf:publications" href="{{.}}" title="Publications"><i class="fa fa-file-text"></i></a>{{ end }}
+      {{ with .googlescholar }}<a class="btn btn-link btn-just-icon" rel="foaf:publications" href="{{.}}" title="Publications"><i class="ai ai-google-scholar"></i></a>{{ end }}
+    </div>
+  </div>
+  
+</div>
