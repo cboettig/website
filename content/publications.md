@@ -1,10 +1,6 @@
 ---
 type: page
-layout: vita
 title: Publications
-nomath: true
-aliases: "/pubs"
-css: ["vita.css"]
 ---
 
 # Articles

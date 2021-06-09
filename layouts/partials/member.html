@@ -21,7 +21,7 @@
     {{ end }}
 
     <div class="tc">
-      <a class= href="mailto:{{.email}}" title="email"><i class="fa fa-envelope"></i></a>
+      <a href="mailto:{{.email}}" title="email"><i class="fa fa-envelope"></i></a>
       {{ with .twitter }}<a  rel="foaf:account" href="https://twitter.com/{{.}}" title="Twitter: {{.}}"><i class="fab fa-twitter"></i></a>{{ end }}
       {{ with .linkedin }}<a   rel="foaf:account" href="{{.}}" title="LinkedIn"><i class="fab fa-linkedin"></i></a>{{ end }}
       {{ with .researchgate }}<a rel="foaf:account" href="{{.}}" title="ResearchGate"><i class="ai ai-researchgate"></i></a>{{ end }}

@@ -31,8 +31,8 @@ enableEmoji = true
   orgName = "Department of Environmental Science, Policy and Management"
   orgLocal = "University of California, Berkeley"
   description = "Theoretical Ecology and Data Science"
-  favicon = "/img/favicon.ico"
-  logo = "/img/logo.png"
+  favicon = "/img/favicon.png"
+  logo = ""
   mainSections = ["blog", "project", "talk"]
   navallcaps = true
   # show/hide social icons in site header & footer
