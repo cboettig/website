@@ -2,9 +2,7 @@
 layout: single-sidebar
 sidebar: 
   show_post_thumbnail: true
-  title: Profiles and Metrics
-  description: |
-    Google Scholar
+
 
 ---
 
