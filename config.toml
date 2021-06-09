@@ -44,6 +44,8 @@ enableEmoji = true
   sharing_image = "/img/nudibranchia.jpg"
   # Twitter username (without @). Used when a visitor shares your site on Twitter.
   twitter = "cboettig"
+  github="cboettig"
+  repo="website"
   
   # use a built-in color theme
   # one of: forest / grayscale / peach / plum /
