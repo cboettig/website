@@ -111,22 +111,26 @@ enableEmoji = true
     url = "/about/"
     weight = 1
   [[menu.header]]
-    name = "publications"
-    title = "Publications"
-    url = "/publications/"
-    weight = 2
-  [[menu.header]]
     name = "members"
     title = "Members"
     url = "/members/"
-    weight = 3
-  
+    weight = 2
+  [[menu.header]]
+    name = "publications"
+    title = "Publications"
+    url = "/publications/"
+    weight = 3 
+  [[menu.header]]
+    name = "software"
+    title = "Software"
+    url = "/software/"
+    weight = 4 
     
   # Configure footer  
   [[menu.footer]]
-    name = "License"
-    title = "License"
-    url = "/license/"
+    name = "Credits"
+    title = "Credits"
+    url = "/credits/"
     weight = 1
 
 
