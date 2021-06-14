@@ -38,4 +38,15 @@ alumni:
     photo: "dan.png"
     homepage: "http://danielsholler.wordpress.com/"
     email: "sholler.daniel@gmail.com"
+  - serge:
+    name:
+      first: "Serge" 
+      last: "Wiltshire"
+    title: "Postdoctoral Researcher"
+    googlescholar: "https://scholar.google.com/citations?user=-8I8G-kAAAAJ&hl=en"
+    #homepage: "#"
+    #github: ""
+    #orcid: ""
+    email: "serge.wiltshire@gmail.com"
+    photo: "serge.jpg"
 
