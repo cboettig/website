@@ -246,7 +246,7 @@ sidebar:
 
 40. Karatayev, Baskett, Kushner, Shears, Caselle, __Boettiger__ (2021).
     Grazer behavior can regulate large-scale patterning of community states.
-    *Ecology Letters* (Accepted)
+    *Ecology Letters* [doi:10.1111/ele.13828](https://doi.org/10.1111/ele.13828)
     
 41. Chapman, Oestreich, Frawley, __Boettiger__, Diver, Santos, Scoville,
     Armstrong, Blondin, Chand, Haulsee, Knight, Crowder (2021). 
