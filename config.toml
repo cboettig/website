@@ -130,6 +130,11 @@ enableGitInfo = true
     title = "Software"
     url = "/software/"
     weight = 4 
+  [[menu.header]]
+    name = "teaching"
+    title = "Teaching"
+    url = "/teaching/"
+    weight = 5
     
   # Configure footer  
   [[menu.footer]]
