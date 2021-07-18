@@ -24,7 +24,7 @@ Available from [PyPi](https://pypi.org)
 
 Available from [CRAN](https://cran.r-project.org)
 
-- [`neonstore`](https://github.com/cboettig/neonstore): NEON Data Store. 
+- [`neonstore`](https://github.com/cboettig/neonstore): A Fast and Provenance Aware Local NEON Data Store. 
   Carl Boettiger and Quinn Thomas and Christine Laney and Claire Lunch (2020).
   [![CRAN_Status_Badge](https://www.r-pkg.org/badges/version/neonstore)](https://cran.r-project.org/package=neonstore)
 
